@@ -1,5 +1,3 @@
-const fs = require ("fs");
+const inform = require("./baru.json");
 
-const isi = fs.readFileSync("./baru.json", "utf-8");
-
-console.log(isi);
+console.log("Informasi PC :",inform)
